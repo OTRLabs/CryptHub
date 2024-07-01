@@ -160,3 +160,6 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+## temporal local database
+/home/user/CryptHub-1/src/crypthub/components/CryptFlows/cryptflows/src/temporal/crypthub.db
