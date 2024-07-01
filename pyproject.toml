@@ -6,9 +6,9 @@ authors = [
     {name = "cam", email = "cammclain@skiff.com"},
 ]
 dependencies = [
-    "podman",
-    "litestar[jinja]>=2.9.1",
-    "surrealdb>=0.3.2",
+    "reflex>=0.4.0",
+    "surrealdb>=0.3.1",
+    "litestar>=2.9.1",
 ]
 requires-python = ">=3.10"
 readme = "README.md"

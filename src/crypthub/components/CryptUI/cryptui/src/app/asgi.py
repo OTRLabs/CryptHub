@@ -1,28 +1,46 @@
 
+from __future__ import annotations
+
+from crypthub.components.CryptUI.cryptui.src.app.config.config import get_settings
+from litestar import Litestar
+from litestar.static_files.config import StaticFilesConfig
 from typing import TYPE_CHECKING
+from pathlib import Path
+
 if TYPE_CHECKING:
     from litestar import Litestar
-    from litestar.contrib.jinja import JinjaTemplateEngine
-    from litestar.template.config import TemplateConfig
     
+
+
 def create_app() -> Litestar:
-    """Create CryptUI Application"""
+    """_summary_
     
-    from litestar import Litestar
+    Load Configuration
+    Create Litestar App
+    
+    Returns:
+        Litestar: _description_
+    """
     
     
-    settings
+    settings = get_settings()
     
-    from pathlib import Path
-
-
-
     app = Litestar(
-        route_handlers=[],
-        template_config=TemplateConfig(
-            directory=Path("templates"),
-            engine=JinjaTemplateEngine,
-        )
-        
-    return app 
-)
+        static_files_config=[
+            StaticFilesConfig(
+                directories=[
+                    "css",
+                    "js",
+                    "images",
+                ],
+                path="/static",
+                name="static",
+            )
+        ],
+        route_handlers=[
+
+            ],
+        **settings
+    )
+    
+    return app
