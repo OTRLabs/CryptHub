@@ -40,6 +40,9 @@ def create_app() -> Litestar:
         route_handlers=[
 
             ],
+        plugins=[
+            
+            ],
         **settings
     )
     
