@@ -10,7 +10,12 @@ dependencies = [
     "surrealdb>=0.3.1",
     "litestar>=2.9.1",
     "advanced-alchemy>=0.16.0",
-    "temporalio>=1.6.0",
+    "temporalio[opentelemetry]>=1.6.0",
+    "asyncio>=3.4.3",
+    "opentelemetry-instrumentation-httpx>=0.46b0",
+    "opentelemetry-api>=1.25.0",
+    "opentelemetry-sdk>=1.25.0",
+    "podman>=5.0.0",
 ]
 requires-python = ">=3.10"
 readme = "README.md"
