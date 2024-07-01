@@ -1,7 +1,5 @@
 
 # CryptHub
-![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgithub.com%2FIncognitLabs%2FCryptHub%2Fblob%2Fff40f4eedb999582526b9d75e46c45b757459ba1%2Fmeta%2Fpackage.json)
-
 
 
 ## What is CryptHub?
@@ -76,7 +74,7 @@ CryptHub is licensed under the [MIT License](LICENSE.md).
 
 ## Contact
 
-For more information, visit our [website](https://crypthub.io) or contact us at [support@crypthub.io](mailto:support@crypthub.io).
+For more information, visit our [website](https://crypthub.io) or contact... well it's just me. Contacts are at @cammclain.
 
 ---
 

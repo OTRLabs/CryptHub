@@ -10,6 +10,7 @@ dependencies = [
     "surrealdb>=0.3.1",
     "litestar>=2.9.1",
     "advanced-alchemy>=0.16.0",
+    "temporalio>=1.6.0",
 ]
 requires-python = ">=3.10"
 readme = "README.md"
