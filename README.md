@@ -1,6 +1,14 @@
 
 # CryptHub
+---
 
+![GitHub last commit](https://img.shields.io/github/last-commit/IncognitLabs/CryptHub)
+![GitHub issues](https://img.shields.io/github/issues/IncognitLabs/CryptHub)
+[![pdm-managed](https://img.shields.io/badge/pdm-managed-blueviolet)](https://pdm-project.org)
+
+---
+
+# Welcome to [CryptHub](https://github.com/IncognitLabs/CryptHub) by [IncognitLabs](https://github.com/IncognitLabs)!
 
 ## What is CryptHub?
 
@@ -38,6 +46,3 @@ CryptHub is licensed under the [MIT License](CryptHub-1/LICENSE).
 For more information, visit our [website](https://crypthub.io) or contact... well it's just me. Contacts are at @cammclain.
 
 
-![GitHub last commit](https://img.shields.io/github/last-commit/IncognitLabs/CryptHub)
-![GitHub issues](https://img.shields.io/github/issues/IncognitLabs/CryptHub)
-[![pdm-managed](https://img.shields.io/badge/pdm-managed-blueviolet)](https://pdm-project.org)
