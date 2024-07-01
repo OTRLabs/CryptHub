@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["cross_platform", "inherit_metadata"]
 lock_version = "4.4.2"
-content_hash = "sha256:863f98686fddeb7e273395842837bc6470fc185044a2e0ac5d07b2cf62422b9a"
+content_hash = "sha256:31af9628f5f551a40ff23294fc3a78b12a6a35009b2a27d1717771f7cc75d20f"
 
 [[package]]
 name = "advanced-alchemy"
@@ -673,6 +673,15 @@ groups = ["default"]
 files = [
     {file = "opentelemetry_util_http-0.46b0-py3-none-any.whl", hash = "sha256:8dc1949ce63caef08db84ae977fdc1848fe6dc38e6bbaad0ae3e6ecd0d451629"},
     {file = "opentelemetry_util_http-0.46b0.tar.gz", hash = "sha256:03b6e222642f9c7eae58d9132343e045b50aca9761fcb53709bd2b663571fdf6"},
+]
+
+[[package]]
+name = "openziti"
+version = "0.8.1"
+summary = "Ziti Python SDK"
+groups = ["default"]
+files = [
+    {file = "openziti-0.8.1.tar.gz", hash = "sha256:5f71a40af17f5cd848feb74f614dbfcf7cb7f9bbc531637c4c1cac09b6d8516d"},
 ]
 
 [[package]]

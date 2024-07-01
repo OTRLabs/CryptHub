@@ -16,6 +16,7 @@ dependencies = [
     "opentelemetry-api>=1.25.0",
     "opentelemetry-sdk>=1.25.0",
     "podman>=5.0.0",
+    "openziti>=0.8.1",
 ]
 requires-python = ">=3.10"
 readme = "README.md"
