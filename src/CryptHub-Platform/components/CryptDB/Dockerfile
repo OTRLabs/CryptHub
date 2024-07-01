@@ -5,11 +5,11 @@ FROM surrealdb/surrealdb:latest
 WORKDIR /data
 
 # Expose the port that SurrealDB will run on
-EXPOSE 8000
+EXPOSE ${SURREAL_DB_PORT}
 
 # Set environment variables for the SurrealDB user and password
-ENV DB_USER=root
-ENV DB_PASSWORD=root
+ENV SURREAL_DB_USER=${SURREAL_DB_USER}
+ENV SURREAL_DB_PASSWORD=${SURREAL_DB_PASSWORD}
 
 # Start SurrealDB with the specified user and password
-CMD ["start", "--user", "root", "--pass", "root", "file:/data/crypthub.db"]
+CMD ["start", "--user", "${SURREAL_DB_USER}", "--pass", "${SURREAL_DB_PASSWORD}", "file:/data/${SURREAL_DB_NAME}.db"]
