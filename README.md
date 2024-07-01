@@ -82,3 +82,4 @@ For more information, visit our [website](https://crypthub.io) or contact us at 
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/IncognitLabs/CryptHub)
 ![GitHub issues](https://img.shields.io/github/issues/IncognitLabs/CryptHub)
+[![pdm-managed](https://img.shields.io/badge/pdm-managed-blueviolet)](https://pdm-project.org)

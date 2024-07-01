@@ -8,7 +8,7 @@ services:
       - /surreal 
       - start 
       - --user
-      - $DB_USER
+      - $SURREAL_DB_USERNAME
       - --pass
       - $DB_PASSWORD
     image: surrealdb/surrealdb:latest

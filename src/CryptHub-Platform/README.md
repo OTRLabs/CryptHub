@@ -1,1 +1,0 @@
-# CryptHub-Platform
