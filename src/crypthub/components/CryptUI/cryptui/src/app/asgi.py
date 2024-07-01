@@ -9,7 +9,13 @@ from pathlib import Path
 
 if TYPE_CHECKING:
     from litestar import Litestar
-    
+    from litestar.contrib.htmx.request import HTMXRequest
+    from litestar.contrib.htmx.response import HTMXTemplate
+    from litestar import get, Litestar
+    from litestar.response import Template
+
+    from litestar.contrib.jinja import JinjaTemplateEngine
+    from litestar.template.config import TemplateConfig
 
 
 def create_app() -> Litestar:
@@ -26,6 +32,10 @@ def create_app() -> Litestar:
     settings = get_settings()
     
     app = Litestar(
+        template_config=TemplateConfig(
+            directory="./templates",
+            engine=JinjaTemplateEngine(),
+        ),
         static_files_config=[
             StaticFilesConfig(
                 directories=[
@@ -38,7 +48,7 @@ def create_app() -> Litestar:
             )
         ],
         route_handlers=[
-
+            
             ],
         plugins=[
             
